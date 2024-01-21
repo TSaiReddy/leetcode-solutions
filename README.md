@@ -10,9 +10,9 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
-**[contains_duplicate.js](contains_duplicate.js)**
+**[contains_duplicate_217.js](contains_duplicate_217.js)**
 
-- Problem: Determine if a given array contains any duplicates.
+- Problem: Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
 **[find_first_and_last_position_of_ele_in_sorted_arr_34.js](find_first_and_last_position_of_ele_in_sorted_arr_34.js)**
 
@@ -42,17 +42,17 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Remove duplicates from a sorted array, allowing at most two duplicates for each element.
 
-**[reverse_string.js](reverse_string.js)**
+**[reverse_words_in_a_string_151.js](reverse_words_in_a_string_151.js)**
 
-- Problem: Reverse a string in-place.
+- Problem: A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.Return a string of the words in reverse order concatenated by a single space.
 
-**[single_ele_in_a_sorted_arr.js](single_ele_in_a_sorted_arr.js)**
+**[single_ele_in_a_sorted_arr_540.js](single_ele_in_a_sorted_arr_540.js)**
 
-- Problem: Find the single element in a sorted array where every element appears twice except for one.
+- Problem: Given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once. return the single element that appears only once.
 
-**[single_number.js](single_number.js)**
+**[single_number_136.js](single_number_136.js)**
 
-- Problem: Find the single number in an array where every element appears twice except for one.
+- Problem: Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
 
 **[string_comp_443.js](string_comp_443.js)**
 
