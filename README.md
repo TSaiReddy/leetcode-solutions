@@ -26,6 +26,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Implement a game where you guess a number and receive feedback on whether the guess is too high, too low, or correct.
 
+**[house_robber_198.js](house_robber_198.js)**
+
+- Problem: Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police
+
 **[median_of_2_sorted_arr_4.js](median_of_2_sorted_arr_4.js)**
 
 - Problem: Find the median of two sorted arrays.
