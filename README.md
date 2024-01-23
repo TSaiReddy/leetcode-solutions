@@ -30,6 +30,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police
 
+**[is_subsequence_392.js](is_subsequence_392.js)**
+
+- Problem: A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not)
+
 **[median_of_2_sorted_arr_4.js](median_of_2_sorted_arr_4.js)**
 
 - Problem: Find the median of two sorted arrays.
@@ -49,6 +53,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[reverse_words_in_a_string_151.js](reverse_words_in_a_string_151.js)**
 
 - Problem: A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.Return a string of the words in reverse order concatenated by a single space.
+
+**[rotate_array_189.js](rotate_array_189.js)**
+
+- Problem: Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
 **[single_ele_in_a_sorted_arr_540.js](single_ele_in_a_sorted_arr_540.js)**
 
