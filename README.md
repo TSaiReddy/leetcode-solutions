@@ -18,6 +18,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Find the starting and ending position of a target element in a sorted array.
 
+**[find_min_in_rotated_sorted_array_153.js](find_min_in_rotated_sorted_array_153.js)**
+
+- Problem: Suppose an array of length n sorted in ascending order is rotated between 1 and n times.
+
 **[find_the_duplicate_number_287.js](find_the_duplicate_number_287.js)**
 
 - Problem: Find the duplicate number in an array containing n+1 integers where each integer is between 1 and n.
@@ -69,6 +73,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[string_comp_443.js](string_comp_443.js)**
 
 - Problem: Compress a string by replacing repeated characters with their count.
+
+**[two_sum_1.js](two_sum_1.js)**
+
+- Problem: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 **[unq_num_of_occurrences_1207.js](unq_num_of_occurrences_1207.js)**
 
