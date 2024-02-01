@@ -54,6 +54,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Remove duplicates from a sorted array, allowing at most two duplicates for each element.
 
+**[remove_element_27.js](remove_element_27.js)**
+
+- Problem: Change the array nums such that the first k elements of nums contain the elements which are not equal to val. The remaining elements of nums are not important as well as the size of nums. Return k.
+
 **[reverse_words_in_a_string_151.js](reverse_words_in_a_string_151.js)**
 
 - Problem: A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.Return a string of the words in reverse order concatenated by a single space.
