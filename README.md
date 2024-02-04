@@ -2,9 +2,13 @@
 
 This repository contains JavaScript solutions for various algorithms and data structure problems. Each file corresponds to a specific problem, and the following is a brief description of each with links:
 
+**[best_time_to_buy_and_sell_stock_2_122.js](best_time_to_buy_and_sell_stock_2_122.js)**
+
+- Problem:You are given an integer array prices where prices[i] is the price of a given stock on the ith day. On each day, you may decide to buy and/or sell the stock. You can only hold at most one share of the stock at any time. However, you can buy it then immediately sell it on the same day.
+
 **[best_time_to_buy_and_sell_stock_121.js](best_time_to_buy_and_sell_stock_121.js)**
 
-- Problem: Find the best time to buy and sell stock to maximize profit.
+- Problem: You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
 
 **[climbing_stairs_70.js](climbing_stairs_70.js)**
 
@@ -38,6 +42,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not)
 
+**[majority_element_169.js](majority_element_169.js)**
+
+- Problem: Given an array nums of size n, return the majority element. The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+
 **[median_of_2_sorted_arr_4.js](median_of_2_sorted_arr_4.js)**
 
 - Problem: Find the median of two sorted arrays.
@@ -50,9 +58,13 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Calculate the product of an array except for the element at each index.
 
-**[remove_dup_from_sorted_arr_II_80.js](remove_dup_from_sorted_arr_II_80.js)**
+**[remove_dup_from_sorted_arr_2_80.js](remove_dup_from_sorted_arr_2_80.js)**
 
-- Problem: Remove duplicates from a sorted array, allowing at most two duplicates for each element.
+- Problem: Given an integer array nums sorted in non-decreasing order, remove some duplicates in-place such that each unique element appears at most twice. The relative order of the elements should be kept the same.
+
+**[remove_dup_from_sorted_arr_26.js](remove_dup_from_sorted_arr_26.js)**
+
+- Problem: Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
 
 **[remove_element_27.js](remove_element_27.js)**
 
