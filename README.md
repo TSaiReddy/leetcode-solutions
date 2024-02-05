@@ -42,6 +42,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not)
 
+**[jump_game_55.js](jump_game_55.js)**
+
+- Problem: You are given an integer array nums. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position. Return true if you can reach the last index, or false otherwise.
+
 **[majority_element_169.js](majority_element_169.js)**
 
 - Problem: Given an array nums of size n, return the majority element. The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
