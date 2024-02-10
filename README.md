@@ -18,6 +18,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
+**[count_elements_with_max_frequency_3005.js](count_elements_with_max_frequency_3005.js)**
+
+- Problem: You are given an array nums consisting of positive integers. Return the total frequencies of elements in nums such that those elements all have the maximum frequency. The frequency of an element is the number of occurrences of that element in the array.
+
 **[find_first_and_last_position_of_ele_in_sorted_arr_34.js](find_first_and_last_position_of_ele_in_sorted_arr_34.js)**
 
 - Problem: Find the starting and ending position of a target element in a sorted array.
@@ -29,6 +33,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[find_the_duplicate_number_287.js](find_the_duplicate_number_287.js)**
 
 - Problem: Find the duplicate number in an array containing n+1 integers where each integer is between 1 and n.
+
+**[first_missing_positive_41.js](first_missing_positive_41.js)**
+
+- Problem: Given an unsorted integer array nums, return the smallest missing positive integer. You must implement an algorithm that runs in O(n) time and uses O(1) auxiliary space.
 
 **[guess_num_high_or_low_374.js](guess_num_high_or_low_374.js)**
 
@@ -58,6 +66,23 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Merge two sorted arrays into a single sorted array.
 
+**[merge_strings_alternately_1768.js](merge_strings_alternately_1768.js)**
+
+- Problem: You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
+
+**[pascal_triangle_2_119.js](pascal_triangle_2_119.js)**
+
+- Problem: Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle. In Pascal's triangle, each number is the sum of the two numbers directly.
+
+**[pascal_triangle_118.js](pascal_triangle_118.js)**
+
+- Problem: Given an integer numRows, return the first numRows of Pascal's triangle.
+  In Pascal's triangle, each number is the sum of the two numbers directly
+
+**[plus_one_66.js](plus_one_66.js)**
+
+- Problem: You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+
 **[product_of_arr_except_self_238.js](product_of_arr_except_self_238.js)**
 
 - Problem: Calculate the product of an array except for the element at each index.
@@ -82,6 +107,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
+**[search_in_rotated_sorted_arr_33.js](search_in_rotated_sorted_arr_33.js)**
+
+- Problem: There is an integer array nums sorted in ascending order (with distinct values). Prior to being passed to your function, nums is possibly rotated at an unknown pivot index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be rotated at pivot index 3 and become [4,5,6,7,0,1,2]
+
 **[single_ele_in_a_sorted_arr_540.js](single_ele_in_a_sorted_arr_540.js)**
 
 - Problem: Given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once. return the single element that appears only once.
@@ -93,6 +122,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[string_comp_443.js](string_comp_443.js)**
 
 - Problem: Compress a string by replacing repeated characters with their count.
+
+**[the_kth_factor_of_n_1492.js](the_kth_factor_of_n_1492.js)**
+
+- Problem: You are given two positive integers n and k. A factor of an integer n is defined as an integer i where n % i == 0. Consider a list of all factors of n sorted in ascending order, return the kth factor in this list or return -1 if n has less than k factors.
 
 **[two_sum_1.js](two_sum_1.js)**
 
