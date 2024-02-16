@@ -2,6 +2,14 @@
 
 This repository contains JavaScript solutions for various algorithms and data structure problems. Each file corresponds to a specific problem, and the following is a brief description of each with links:
 
+**[add_two_numbers_2.js](add_two_numbers_2.js)**
+
+- Problem:You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+**[ant_on_the_boundary_3028.js](ant_on_the_boundary_3028.js)**
+
+- Problem:An ant is on a boundary. It sometimes goes left and sometimes right. You are given an array of non-zero integers nums. The ant starts reading nums from the first element of it to its end. At each step, it moves according to the value of the current element. If nums[i] < 0, it moves left by -nums[i] units. If nums[i] > 0, it moves right by nums[i] units. Return the number of times the ant returns to the boundary.
+
 **[best_time_to_buy_and_sell_stock_2_122.js](best_time_to_buy_and_sell_stock_2_122.js)**
 
 - Problem:You are given an integer array prices where prices[i] is the price of a given stock on the ith day. On each day, you may decide to buy and/or sell the stock. You can only hold at most one share of the stock at any time. However, you can buy it then immediately sell it on the same day.
@@ -18,6 +26,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
+**[convert_binary_num_in_a_linked_list_to_integer_1290.js](convert_binary_num_in_a_linked_list_to_integer_1290.js)**
+
+- Problem: Given head which is a reference node to a singly-linked list. The value of each node in the linked list is either 0 or 1. The linked list holds the binary representation of a number. Return the decimal value of the number in the linked list.
+
 **[count_elements_with_max_frequency_3005.js](count_elements_with_max_frequency_3005.js)**
 
 - Problem: You are given an array nums consisting of positive integers. Return the total frequencies of elements in nums such that those elements all have the maximum frequency. The frequency of an element is the number of occurrences of that element in the array.
@@ -30,13 +42,9 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Suppose an array of length n sorted in ascending order is rotated between 1 and n times.
 
-**[find_the_duplicate_number_287.js](find_the_duplicate_number_287.js)**
+**[find_the_dup_number_287.js](find_the_dup_number_287.js)**
 
 - Problem: Find the duplicate number in an array containing n+1 integers where each integer is between 1 and n.
-
-**[first_missing_positive_41.js](first_missing_positive_41.js)**
-
-- Problem: Given an unsorted integer array nums, return the smallest missing positive integer. You must implement an algorithm that runs in O(n) time and uses O(1) auxiliary space.
 
 **[guess_num_high_or_low_374.js](guess_num_high_or_low_374.js)**
 
@@ -70,6 +78,14 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
 
+**[merge_two_sorted_lists_21.js](merge_two_sorted_lists_21.js)**
+
+- Problem: You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists. Return the head of the merged linked list.
+
+**[middle_of_the_linked_list_876.js](middle_of_the_linked_list_876.js)**
+
+- Problem: Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node.
+
 **[pascal_triangle_2_119.js](pascal_triangle_2_119.js)**
 
 - Problem: Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle. In Pascal's triangle, each number is the sum of the two numbers directly.
@@ -94,6 +110,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[remove_dup_from_sorted_arr_26.js](remove_dup_from_sorted_arr_26.js)**
 
 - Problem: Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+
+**[remove_dups_from_sorted_list_83.js](remove_dups_from_sorted_list_83.js)**
+
+- Problem: Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
 
 **[remove_element_27.js](remove_element_27.js)**
 
