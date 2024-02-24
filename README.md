@@ -34,6 +34,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: You are given an array nums consisting of positive integers. Return the total frequencies of elements in nums such that those elements all have the maximum frequency. The frequency of an element is the number of occurrences of that element in the array.
 
+**[design_linked_list_707.js](design_linked_list_707.js)**
+
+- Problem: Design your implementation of the linked list. You can choose to use a singly or doubly linked list. A node in a singly linked list should have two attributes: val and next. val is the value of the current node, and next is a pointer/reference to the next node. If you want to use the doubly linked list, you will need one more attribute prev to indicate the previous node in the linked list. Assume all nodes in the linked list are 0-indexed.
+
 **[find_first_and_last_position_of_ele_in_sorted_arr_34.js](find_first_and_last_position_of_ele_in_sorted_arr_34.js)**
 
 - Problem: Find the starting and ending position of a target element in a sorted array.
@@ -119,6 +123,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Change the array nums such that the first k elements of nums contain the elements which are not equal to val. The remaining elements of nums are not important as well as the size of nums. Return k.
 
+**[reverse_linked_list_206.js](reverse_linked_list_206.js)**
+
+- Problem: Given the head of a singly linked list, reverse the list, and return the reversed list.
+
 **[reverse_words_in_a_string_151.js](reverse_words_in_a_string_151.js)**
 
 - Problem: A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.Return a string of the words in reverse order concatenated by a single space.
@@ -142,6 +150,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[string_comp_443.js](string_comp_443.js)**
 
 - Problem: Compress a string by replacing repeated characters with their count.
+
+**[swap_nodes_in_pairs_24.js](swap_nodes_in_pairs_24.js)**
+
+- Problem: Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
 
 **[the_kth_factor_of_n_1492.js](the_kth_factor_of_n_1492.js)**
 
