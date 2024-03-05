@@ -8,14 +8,13 @@ class ListNode:
 
 class Solution:
     def swapPairs(self, head):
-        if head is None or head.next is None:
+        if not head or not head.next:
             return head
 
-        newHead = ListNode(-1)
-        newHead.next = head
+        newHead = ListNode(-1, head)
         current = newHead
 
-        while current.next is not None and current.next.next is not None:
+        while current.next and current.next.next:
             first = current.next
             second = current.next.next
 

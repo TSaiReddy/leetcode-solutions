@@ -6,6 +6,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem:You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 
+**[add_two_numbers_2.py](add_two_numbers_2.py)**
+
+- Problem:You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
 **[ant_on_the_boundary_3028.js](ant_on_the_boundary_3028.js)**
 
 - Problem:An ant is on a boundary. It sometimes goes left and sometimes right. You are given an array of non-zero integers nums. The ant starts reading nums from the first element of it to its end. At each step, it moves according to the value of the current element. If nums[i] < 0, it moves left by -nums[i] units. If nums[i] > 0, it moves right by nums[i] units. Return the number of times the ant returns to the boundary.
@@ -33,6 +37,14 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[count_elements_with_max_frequency_3005.js](count_elements_with_max_frequency_3005.js)**
 
 - Problem: You are given an array nums consisting of positive integers. Return the total frequencies of elements in nums such that those elements all have the maximum frequency. The frequency of an element is the number of occurrences of that element in the array.
+
+**[delete_node_in_a_linked_list_237.py](delete_node_in_a_linked_list_237.py)**
+
+- Problem: There is a singly-linked list head and we want to delete a node node in it. you are given the node to be deleted node. You will not be given access to the first node of head. all the values of the linked list are unique, and it is guaranteed that the given node node is not the last node in the linked list. delete the given node. Note that by deleting the node, we do not mean removing it from memory.
+
+**[delete_the_middle_node_of_a_linked_list_2095.py](delete_the_middle_node_of_a_linked_list_2095.py)**
+
+- Problem: You are given the head of a linked list. Delete the middle node, and return the head of the modified linked list. the middle node of a linked list of size n is the ⌊n / 2⌋th node from the start using 0-based indexing, where ⌊x⌋ denotes the largest integer less than or equal to x. for n = 1, 2, 3, 4, and 5, the middle nodes are 0, 1, 1, 2, and 2, respectively.
 
 **[design_linked_list_707.js](design_linked_list_707.js)**
 
@@ -66,6 +78,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: You are given an integer array nums. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position. Return true if you can reach the last index, or false otherwise.
 
+**[linked_list_components_817.py](linked_list_components_817.py)**
+
+- Problem: You are given the head of a linked list containing unique integer values and an integer array nums that is a subset of the linked list values. Return the number of connected components in nums where two values are connected if they appear consecutively in the linked list.
+
 **[majority_element_169.js](majority_element_169.js)**
 
 - Problem: Given an array nums of size n, return the majority element. The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
@@ -73,6 +89,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[median_of_2_sorted_arr_4.js](median_of_2_sorted_arr_4.js)**
 
 - Problem: Find the median of two sorted arrays.
+
+**[merge_nodes_in_between_zeros_2181.py](merge_nodes_in_between_zeros_2181.py)**
+
+- Problem: You are given the head of a linked list, which contains a series of integers separated by 0's. The beginning and end of the linked list will have Node.val == 0. For every two consecutive 0's, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0's.
 
 **[merge_sorted_arr_88.js](merge_sorted_arr_88.js)**
 
@@ -89,6 +109,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[middle_of_the_linked_list_876.js](middle_of_the_linked_list_876.js)**
 
 - Problem: Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node.
+
+**[odd_even_linked_list_328.py](odd_even_linked_list_328.py)**
+
+- Problem: Given the head of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list. the first node is considered odd, and the second node is even, and so on.
 
 **[pascal_triangle_2_119.js](pascal_triangle_2_119.js)**
 
@@ -115,6 +139,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
 
+**[remove_dup_from_sorted_list_2_82.py](remove_dup_from_sorted_list_2_82.py)**
+
+- Problem: Given the head of a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list. Return the linked list sorted as well.
+
 **[remove_dups_from_sorted_list_83.js](remove_dups_from_sorted_list_83.js)**
 
 - Problem: Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
@@ -122,6 +150,14 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[remove_element_27.js](remove_element_27.js)**
 
 - Problem: Change the array nums such that the first k elements of nums contain the elements which are not equal to val. The remaining elements of nums are not important as well as the size of nums. Return k.
+
+**[remove_nth_node_from_end_of_list_19.py](remove_nth_node_from_end_of_list_19.py)**
+
+- Problem: Given the head of a linked list, remove the nth node from the end of the list and return its head.
+
+**[return_len_of_args_passed_2703.js](return_len_of_args_passed_2703.js)**
+
+- Problem: Write a function argumentsLength that returns the count of arguments passed to it.
 
 **[reverse_linked_list_206.js](reverse_linked_list_206.js)**
 
@@ -135,6 +171,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
+**[rotate_list_61.py](rotate_list_61.py)**
+
+- Problem: Given the head of a linked list, rotate the list to the right by k places.
+
 **[search_in_rotated_sorted_arr_33.js](search_in_rotated_sorted_arr_33.js)**
 
 - Problem: There is an integer array nums sorted in ascending order (with distinct values). Prior to being passed to your function, nums is possibly rotated at an unknown pivot index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be rotated at pivot index 3 and become [4,5,6,7,0,1,2]
@@ -147,11 +187,15 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
 
+**[sort_list_148.py](sort_list_148.py)**
+
+- Problem: Given the head of a linked list, return the list after sorting it in ascending order.
+
 **[string_comp_443.js](string_comp_443.js)**
 
 - Problem: Compress a string by replacing repeated characters with their count.
 
-**[swap_nodes_in_pairs_24.js](swap_nodes_in_pairs_24.js)**
+**[swap_nodes_in_pairs_24.py](swap_nodes_in_pairs_24.py)**
 
 - Problem: Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
 
