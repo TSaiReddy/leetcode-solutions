@@ -4,14 +4,6 @@ class ListNode:
         self.next = next
 
 
-def print_linked_list(head):
-    current = head
-    while current:
-        print(current.val, end=" -> ")
-        current = current.next
-    print("None")
-
-
 class Solution:
     def mergeNodes(self, head):
         if not head or not head.next:
