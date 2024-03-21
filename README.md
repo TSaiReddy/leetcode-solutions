@@ -38,6 +38,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: You are given an array nums consisting of positive integers. Return the total frequencies of elements in nums such that those elements all have the maximum frequency. The frequency of an element is the number of occurrences of that element in the array.
 
+**[crawler_log_folder_1598.py](crawler_log_folder_1598.py)**
+
+- Problem: The Leetcode file system keeps a log each time some user performs a change folder operation. "../" : Move to the parent folder of the current folder. (If you are already in the main folder, remain in the same folder). "./" : Remain in the same folder. "x/" : Move to the child folder named x (This folder is guaranteed to always exist).
+
 **[delete_node_in_a_linked_list_237.py](delete_node_in_a_linked_list_237.py)**
 
 - Problem: There is a singly-linked list head and we want to delete a node node in it. you are given the node to be deleted node. You will not be given access to the first node of head. all the values of the linked list are unique, and it is guaranteed that the given node node is not the last node in the linked list. delete the given node. Note that by deleting the node, we do not mean removing it from memory.
@@ -45,6 +49,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[delete_the_middle_node_of_a_linked_list_2095.py](delete_the_middle_node_of_a_linked_list_2095.py)**
 
 - Problem: You are given the head of a linked list. Delete the middle node, and return the head of the modified linked list. the middle node of a linked list of size n is the ⌊n / 2⌋th node from the start using 0-based indexing, where ⌊x⌋ denotes the largest integer less than or equal to x. for n = 1, 2, 3, 4, and 5, the middle nodes are 0, 1, 1, 2, and 2, respectively.
+
+**[design_browser_history_1472.py](design_browser_history_1472.py)**
+
+- Problem: You have a browser of one tab where you start on the homepage and you can visit another url, get back in the history number of steps or move forward in the history number of steps.
 
 **[design_linked_list_707.js](design_linked_list_707.js)**
 
@@ -70,6 +78,14 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police
 
+**[imp_queue_using_stacks_232.py](imp_queue_using_stacks_232.py)**
+
+- Problem: Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty).
+
+**[imp_stack_using_queues_225.py](imp_stack_using_queues_225.py)**
+
+- Problem: Implement a last-in-first-out (LIFO) stack using only two queues. The implemented stack should support all the functions of a normal stack (push, top, pop, and empty).
+
 **[is_subsequence_392.js](is_subsequence_392.js)**
 
 - Problem: A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not)
@@ -81,6 +97,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[linked_list_components_817.py](linked_list_components_817.py)**
 
 - Problem: You are given the head of a linked list containing unique integer values and an integer array nums that is a subset of the linked list values. Return the number of connected components in nums where two values are connected if they appear consecutively in the linked list.
+
+**[linked_list_cycle_141.py](linked_list_cycle_141.py)**
+
+- Problem: Given head, the head of a linked list, determine if the linked list has a cycle in it. There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter. Return true if there is a cycle in the linked list. Otherwise, return false.
 
 **[majority_element_169.js](majority_element_169.js)**
 
@@ -110,9 +130,21 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node.
 
+**[next_greater_element_I_496.py](next_greater_element_I_496.py)**
+
+- Problem: Given The next greater element of some element x in an array is the first greater element that is to the right of x in the same array. You are given two distinct 0-indexed integer arrays nums1 and nums2, where nums1 is a subset of nums2. For each 0 <= i < nums1.length, find the index j such that nums1[i] == nums2[j] and determine the next greater element of nums2[j] in nums2. If there is no next greater element, then the answer for this query is -1.
+
+**[next_greater_element_II_503.py](next_greater_element_II_503.py)**
+
+- Problem: Given a circular integer array nums (i.e., the next element of nums[nums.length - 1] is nums[0]), return the next greater number for every element in nums. The next greater number of a number x is the first greater number to its traversing-order next in the array, which means you could search circularly to find its next greater number. If it doesn't exist, return -1 for this number.
+
 **[odd_even_linked_list_328.py](odd_even_linked_list_328.py)**
 
 - Problem: Given the head of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list. the first node is considered odd, and the second node is even, and so on.
+
+**[palindrome_linked_list_234.py](palindrome_linked_list_234.py)**
+
+- Problem: Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
 
 **[pascal_triangle_2_119.js](pascal_triangle_2_119.js)**
 
@@ -130,6 +162,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[product_of_arr_except_self_238.js](product_of_arr_except_self_238.js)**
 
 - Problem: Calculate the product of an array except for the element at each index.
+
+**[product_of_the_last_k_numbers_1352.py](product_of_the_last_k_numbers_1352.py)**
+
+- Problem: Design an algorithm that accepts a stream of integers and retrieves the product of the last k integers of the stream.
 
 **[remove_dup_from_sorted_arr_2_80.js](remove_dup_from_sorted_arr_2_80.js)**
 
@@ -203,6 +239,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: You are given two positive integers n and k. A factor of an integer n is defined as an integer i where n % i == 0. Consider a list of all factors of n sorted in ascending order, return the kth factor in this list or return -1 if n has less than k factors.
 
+**[time_needed_to_buy_tickets_2073.py](time_needed_to_buy_tickets_2073.py)**
+
+- Problem: There are n people in a line queuing to buy tickets, where the 0th person is at the front of the line and the (n - 1)th person is at the back of the line. You are given a 0-indexed integer array tickets of length n where the number of tickets that the ith person would like to buy is tickets[i]. Each person takes exactly 1 second to buy a ticket. A person can only buy 1 ticket at a time and has to go back to the end of the line (which happens instantaneously) in order to buy more tickets. If a person does not have any tickets left to buy, the person will leave the line. Return the time taken for the person at position k (0-indexed) to finish buying tickets.
+
 **[two_sum_1.js](two_sum_1.js)**
 
 - Problem: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -210,5 +250,9 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[unq_num_of_occurrences_1207.js](unq_num_of_occurrences_1207.js)**
 
 - Problem: Check if the number of occurrences of each element in an array is unique.
+
+**[valid_parentheses_20.py](valid_parentheses_20.py)**
+
+- Problem: Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
 Feel free to explore each solution for a detailed understanding of the algorithms and data structures implemented. If you have any questions or improvements, please don't hesitate to reach out. Happy coding!
