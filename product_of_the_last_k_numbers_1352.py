@@ -1,22 +1,18 @@
 class ProductOfNumbers:
 
     def __init__(self):
-        self.queue = []
+        self.arr = [1]
 
     def add(self, num: int) -> None:
         if num == 0:
-            self.queue = [num]
+            self.arr = [1]
         else:
-            self.queue.append(num)
+            self.arr.append(self.arr[-1]*num)
 
     def getProduct(self, k: int) -> int:
-        product = 1
-        for i in range(len(self.queue) - 1, -1, -1):
-            if k > 0:
-                product *= self.queue[i]
-                k -= 1
-
-        return product
+        if len(self.arr) - 1 < k:
+            return 0
+        return self.arr[-1]//self.arr[len(self.arr)-1-k]
 
 
 obj = ProductOfNumbers()

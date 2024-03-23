@@ -130,6 +130,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 
 - Problem: Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node.
 
+**[min_stack_155.py](min_stack_155.py)**
+
+- Problem: Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. Implement the MinStack class: MinStack() initializes the stack object. void push(int val) pushes the element val onto the stack. void pop() removes the element on the top of the stack. int top() gets the top element of the stack. int getMin() retrieves the minimum element in the stack. You must implement a solution with O(1) time complexity for each function.
+
 **[next_greater_element_I_496.py](next_greater_element_I_496.py)**
 
 - Problem: Given The next greater element of some element x in an array is the first greater element that is to the right of x in the same array. You are given two distinct 0-indexed integer arrays nums1 and nums2, where nums1 is a subset of nums2. For each 0 <= i < nums1.length, find the index j such that nums1[i] == nums2[j] and determine the next greater element of nums2[j] in nums2. If there is no next greater element, then the answer for this query is -1.
@@ -137,6 +141,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[next_greater_element_II_503.py](next_greater_element_II_503.py)**
 
 - Problem: Given a circular integer array nums (i.e., the next element of nums[nums.length - 1] is nums[0]), return the next greater number for every element in nums. The next greater number of a number x is the first greater number to its traversing-order next in the array, which means you could search circularly to find its next greater number. If it doesn't exist, return -1 for this number.
+
+**[next_greater_node_in_linked_list_1019.py](next_greater_node_in_linked_list_1019.py)**
+
+- Problem: You are given the head of a linked list with n nodes. For each node in the list, find the value of the next greater node. That is, for each node, find the value of the first node that is next to it and has a strictly larger value than it. Return an integer array answer where answer[i] is the value of the next greater node of the ith node (1-indexed). If the ith node does not have a next greater node, set answer[i] = 0.
 
 **[odd_even_linked_list_328.py](odd_even_linked_list_328.py)**
 
@@ -162,6 +170,10 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[product_of_arr_except_self_238.js](product_of_arr_except_self_238.js)**
 
 - Problem: Calculate the product of an array except for the element at each index.
+
+**[product_of_the_last_k_numbers_1352.py](product_of_the_last_k_numbers_1352.py)**
+
+- Problem: Design an algorithm that accepts a stream of integers and retrieves the product of the last k integers of the stream. Implement the ProductOfNumbers class: ProductOfNumbers() Initializes the object with an empty stream. void add(int num) Appends the integer num to the stream. int getProduct(int k) Returns the product of the last k numbers in the current list. You can assume that always the current list has at least k numbers.
 
 **[product_of_the_last_k_numbers_1352.py](product_of_the_last_k_numbers_1352.py)**
 
@@ -254,5 +266,9 @@ This repository contains JavaScript solutions for various algorithms and data st
 **[valid_parentheses_20.py](valid_parentheses_20.py)**
 
 - Problem: Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+**[validate_stack_sequences_946.py](validate_stack_sequences_946.py)**
+
+- Problem: Given two integer arrays pushed and popped each with distinct values, return true if this could have been the result of a sequence of push and pop operations on an initially empty stack, or false otherwise.
 
 Feel free to explore each solution for a detailed understanding of the algorithms and data structures implemented. If you have any questions or improvements, please don't hesitate to reach out. Happy coding!
