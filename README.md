@@ -38,7 +38,11 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[BST_to_greater_sum_tree_1038.py](BST_to_greater_sum_tree_1038.py)**
 
+**[BT_level_order_traversal_II_107.py](BT_level_order_traversal_II_107.py)**
+
 **[BT_paths_257.py](BT_paths_257.py)**
+
+**[BT_right_side_view_199.py](BT_right_side_view_199.py)**
 
 **[build_an_arr_with_stack_operations_1441.py](build_an_arr_with_stack_operations_1441.py)**
 
@@ -62,9 +66,15 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[count_elements_with_max_frequency_3005.js](count_elements_with_max_frequency_3005.js)**
 
+**[count_good_nodes_in_BT_1448.py](count_good_nodes_in_BT_1448.py)**
+
 **[count_nodes_equal_to_avg_of_subtree_2265.py](count_nodes_equal_to_avg_of_subtree_2265.py)**
 
 **[crawler_log_folder_1598.py](crawler_log_folder_1598.py)**
+
+**[deepest_leaves_sum_1302.py](deepest_leaves_sum_1302.py)**
+
+**[delete_leaves_with_a_given_value_1325.py](delete_leaves_with_a_given_value_1325.py)**
 
 **[delete_node_in_a_BST_450.py](delete_node_in_a_BST_450.py)**
 
@@ -94,6 +104,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[find_first_and_last_position_of_ele_in_sorted_arr_34.js](find_first_and_last_position_of_ele_in_sorted_arr_34.js)**
 
+**[find_largest_value_in_each_tree_row_515.py](find_largest_value_in_each_tree_row_515.py)**
+
 **[find_min_in_rotated_sorted_array_153.js](find_min_in_rotated_sorted_array_153.js)**
 
 **[find_the_dup_number_287.js](find_the_dup_number_287.js)**
@@ -101,6 +113,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[find_the_winner_of_the_circular_game_1823.py](find_the_winner_of_the_circular_game_1823.py)**
 
 **[first_unique_char_in_a_str_387.py](first_unique_char_in_a_str_387.py)**
+
+**[flatten_BT_to_linked_list_114.py](flatten_BT_to_linked_list_114.py)**
 
 **[flatten_nested_list_iterator_341.py](flatten_nested_list_iterator_341.py)**
 
@@ -131,6 +145,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[lowest_common_ancestor_of_a_BST_235.py](lowest_common_ancestor_of_a_BST_235.py)**
 
 **[majority_element_169.js](majority_element_169.js)**
+
+**[max_BT_654.py](max_BT_654.py)**
 
 **[max_depth_of_BT_104.py](max_depth_of_BT_104.py)**
 
@@ -186,6 +202,10 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[plus_one_66.js](plus_one_66.js)**
 
+**[populating_next_right_pointers_in_each_node_116.py](populating_next_right_pointers_in_each_node_116.py)**
+
+**[populating_next_right_pointers_in_each_node_II_117.py](populating_next_right_pointers_in_each_node_II_117.py)**
+
 **[product_of_arr_except_self_238.js](product_of_arr_except_self_238.js)**
 
 **[product_of_the_last_k_numbers_1352.py](product_of_the_last_k_numbers_1352.py)**
@@ -230,6 +250,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[search_in_rotated_sorted_arr_33.js](search_in_rotated_sorted_arr_33.js)**
 
+**[serialize_and_deserialize_BST_449.py](serialize_and_deserialize_BST_449.py)**
+
 **[simplify_path_71.py](simplify_path_71.py)**
 
 **[single_ele_in_a_sorted_arr_540.js](single_ele_in_a_sorted_arr_540.js)**
@@ -247,6 +269,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[string_comp_443.js](string_comp_443.js)**
 
 **[sum_of_left_leaves_404.py](sum_of_left_leaves_404.py)**
+
+**[sum_of_nodes_with_even-valued_grandparent_1315.py](sum_of_nodes_with_even-valued_grandparent_1315.py)**
 
 **[sum_of_root_to_leaf_binary_numbers_1022.py](sum_of_root_to_leaf_binary_numbers_1022.py)**
 
