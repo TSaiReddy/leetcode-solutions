@@ -2,6 +2,8 @@
 
 This repository contains JavaScript and python solutions for various algorithms and data structure problems. Each file corresponds to a specific problem, and the following is a brief description of each with links:
 
+**[add_one_row_to_tree_623.py](add_one_row_to_tree_623.py)**
+
 **[add_two_numbers_2.js](add_two_numbers_2.js)**
 
 **[add_two_numbers_2.py](add_two_numbers_2.py)**
@@ -46,6 +48,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[build_an_arr_with_stack_operations_1441.py](build_an_arr_with_stack_operations_1441.py)**
 
+**[check_completeness_of_a_BT_958.py](check_completeness_of_a_BT_958.py)**
+
 **[climbing_stairs_70.js](climbing_stairs_70.js)**
 
 **[construct_BST_from_preorder_traversal_1008.py](construct_BST_from_preorder_traversal_1008.py)**
@@ -63,6 +67,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[convert_sorted_array_to_BST_108.py](convert_sorted_array_to_BST_108.py)**
 
 **[convert_sorted_list_to_BST_109.py](convert_sorted_list_to_BST_109.py)**
+
+**[count_complete_tree_nodes_222.py](count_complete_tree_nodes_222.py)**
 
 **[count_elements_with_max_frequency_3005.js](count_elements_with_max_frequency_3005.js)**
 
@@ -95,6 +101,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[encode_and_decode_tinyURL_535.py](encode_and_decode_tinyURL_535.py)**
 
 **[evaluate_boolean_BT_2331.py](evaluate_boolean_BT_2331.py)**
+
+**[even_odd_tree_1609.py](even_odd_tree_1609.py)**
 
 **[final_prices_with_a_special_discount_in_a_shop_1475.py](final_prices_with_a_special_discount_in_a_shop_1475.py)**
 
@@ -130,6 +138,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[insert_into_a_binary_search_tree_701.py](insert_into_a_binary_search_tree_701.py)**
 
+**[invert_BT_226.py](invert_BT_226.py)**
+
 **[is_subsequence_392.js](is_subsequence_392.js)**
 
 **[jump_game_55.js](jump_game_55.js)**
@@ -149,6 +159,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[max_BT_654.py](max_BT_654.py)**
 
 **[max_depth_of_BT_104.py](max_depth_of_BT_104.py)**
+
+**[max_diff_between_node_and_ancestor_1026.py](max_diff_between_node_and_ancestor_1026.py)**
 
 **[max_level_sum_of_a_binary_tree_1161.py](max_level_sum_of_a_binary_tree_1161.py)**
 
@@ -174,6 +186,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[min_depth_of_BT_111.py](min_depth_of_BT_111.py)**
 
+**[min_num_of_steps_to_make_two_str_anagram_1347.py](min_num_of_steps_to_make_two_str_anagram_1347.py)**
+
 **[min_remove_to_make_valid_parentheses_1249.py](min_remove_to_make_valid_parentheses_1249.py)**
 
 **[min_stack_155.py](min_stack_155.py)**
@@ -195,6 +209,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[pascal_triangle_2_119.js](pascal_triangle_2_119.js)**
 
 **[pascal_triangle_118.js](pascal_triangle_118.js)**
+
+**[path_in_zigzag_labelled_BT_1104.py](path_in_zigzag_labelled_BT_1104.py)**
 
 **[path_sum_112.py](path_sum_112.py)**
 
@@ -234,7 +250,11 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[reveal_cards_in_increasing_order_950.py](reveal_cards_in_increasing_order_950.py)**
 
+**[reverse_integer_7.py](reverse_integer_7.py)**
+
 **[reverse_linked_list_206.js](reverse_linked_list_206.js)**
+
+**[reverse_odd_levels_of_BT_2415.py](reverse_odd_levels_of_BT_2415.py)**
 
 **[reverse_words_in_a_string_151.js](reverse_words_in_a_string_151.js)**
 
@@ -251,6 +271,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[search_in_rotated_sorted_arr_33.js](search_in_rotated_sorted_arr_33.js)**
 
 **[serialize_and_deserialize_BST_449.py](serialize_and_deserialize_BST_449.py)**
+
+**[serialize_and_deserialize_BT_297.py](serialize_and_deserialize_BT_297.py)**
 
 **[simplify_path_71.py](simplify_path_71.py)**
 
@@ -291,6 +313,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[univalued_BT_965.py](univalued_BT_965.py)**
 
 **[unq_num_of_occurrences_1207.js](unq_num_of_occurrences_1207.js)**
+
+**[valid_anagram_242.py](valid_anagram_242.py)**
 
 **[valid_parentheses_20.py](valid_parentheses_20.py)**
 
