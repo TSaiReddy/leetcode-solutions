@@ -2,6 +2,8 @@
 
 This repository contains JavaScript and python solutions for various algorithms and data structure problems. Each file corresponds to a specific problem, and the following is a brief description of each with links:
 
+**[3sum_15.js](3sum_15.js)**
+
 **[add_one_row_to_tree_623.py](add_one_row_to_tree_623.py)**
 
 **[add_two_numbers_2.js](add_two_numbers_2.js)**
@@ -21,6 +23,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[avg_of_levels_in_BT_637.py](avg_of_levels_in_BT_637.py)**
 
 **[balance_a_BST_1382.py](balance_a_BST_1382.py)**
+
+**[balanced_BT_110.py](balanced_BT_110.py)**
 
 **[best_time_to_buy_and_sell_stock_2_122.js](best_time_to_buy_and_sell_stock_2_122.js)**
 
@@ -50,6 +54,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[check_completeness_of_a_BT_958.py](check_completeness_of_a_BT_958.py)**
 
+**[check_if_a_string_is_an_acronym_of_words_2828.py](check_if_a_string_is_an_acronym_of_words_2828.py)**
+
 **[climbing_stairs_70.js](climbing_stairs_70.js)**
 
 **[construct_BST_from_preorder_traversal_1008.py](construct_BST_from_preorder_traversal_1008.py)**
@@ -68,13 +74,19 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[convert_sorted_list_to_BST_109.py](convert_sorted_list_to_BST_109.py)**
 
+**[convert_the_temperature_2469.py](convert_the_temperature_2469.py)**
+
 **[count_complete_tree_nodes_222.py](count_complete_tree_nodes_222.py)**
 
 **[count_elements_with_max_frequency_3005.js](count_elements_with_max_frequency_3005.js)**
 
 **[count_good_nodes_in_BT_1448.py](count_good_nodes_in_BT_1448.py)**
 
+**[count_negative_nums_in_a_sorted_matrix_1351.py](count_negative_nums_in_a_sorted_matrix_1351.py)**
+
 **[count_nodes_equal_to_avg_of_subtree_2265.py](count_nodes_equal_to_avg_of_subtree_2265.py)**
+
+**[count_pairs_whose_sum_is_less_than_target_2824.py](count_pairs_whose_sum_is_less_than_target_2824.py)**
 
 **[crawler_log_folder_1598.py](crawler_log_folder_1598.py)**
 
@@ -116,6 +128,10 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[find_min_in_rotated_sorted_array_153.js](find_min_in_rotated_sorted_array_153.js)**
 
+**[find_target_indices_after_sorting_arr_2089.py](find_target_indices_after_sorting_arr_2089.py)**
+
+**[find_the_distance_value_between_two_arrs_1385.py](find_the_distance_value_between_two_arrs_1385.py)**
+
 **[find_the_dup_number_287.js](find_the_dup_number_287.js)**
 
 **[find_the_winner_of_the_circular_game_1823.py](find_the_winner_of_the_circular_game_1823.py)**
@@ -125,6 +141,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[flatten_BT_to_linked_list_114.py](flatten_BT_to_linked_list_114.py)**
 
 **[flatten_nested_list_iterator_341.py](flatten_nested_list_iterator_341.py)**
+
+**[group_anagrams_49.js](group_anagrams_49.js)**
 
 **[guess_num_high_or_low_374.js](guess_num_high_or_low_374.js)**
 
@@ -138,6 +156,10 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[insert_into_a_binary_search_tree_701.py](insert_into_a_binary_search_tree_701.py)**
 
+**[intersection_of_two_arrs_349.py](intersection_of_two_arrs_349.py)**
+
+**[intersection_of_two_arrs_II_350.py](intersection_of_two_arrs_II_350.py)**
+
 **[invert_BT_226.py](invert_BT_226.py)**
 
 **[is_subsequence_392.js](is_subsequence_392.js)**
@@ -148,11 +170,21 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[linked_list_components_817.py](linked_list_components_817.py)**
 
+**[leaf_similar_trees_872.py](leaf_similar_trees_872.py)**
+
 **[linked_list_cycle_141.py](linked_list_cycle_141.py)**
+
+**[longest_palindromic_substr_5.js](longest_palindromic_substr_5.js)**
+
+**[longest_substr_without_repeating_chars_3.js](longest_substr_without_repeating_chars_3.js)**
+
+**[longest_valid_parentheses_32.js](longest_valid_parentheses_32.js)**
 
 **[longest_valid_parentheses_32.py](longest_valid_parentheses_32.py)**
 
 **[lowest_common_ancestor_of_a_BST_235.py](lowest_common_ancestor_of_a_BST_235.py)**
+
+**[lowest_common_ancestor_of_deepest_leaves_1123.py](lowest_common_ancestor_of_deepest_leaves_1123.py)**
 
 **[majority_element_169.js](majority_element_169.js)**
 
@@ -168,6 +200,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[max_sum_circular_subarray_918.py](max_sum_circular_subarray_918.py)**
 
+**[max_twin_sum_of_a_linked_list_2130.js](max_twin_sum_of_a_linked_list_2130.js)**
+
 **[max_twin_sum_of_a_linked_list_2130.py](max_twin_sum_of_a_linked_list_2130.py)**
 
 **[median_of_2_sorted_arr_4.js](median_of_2_sorted_arr_4.js)**
@@ -177,6 +211,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[merge_sorted_arr_88.js](merge_sorted_arr_88.js)**
 
 **[merge_strings_alternately_1768.js](merge_strings_alternately_1768.js)**
+
+**[merge_two_BT_617.py](merge_two_BT_617.py)**
 
 **[merge_two_sorted_lists_21.js](merge_two_sorted_lists_21.js)**
 
@@ -209,8 +245,6 @@ This repository contains JavaScript and python solutions for various algorithms 
 **[pascal_triangle_2_119.js](pascal_triangle_2_119.js)**
 
 **[pascal_triangle_118.js](pascal_triangle_118.js)**
-
-**[path_in_zigzag_labelled_BT_1104.py](path_in_zigzag_labelled_BT_1104.py)**
 
 **[path_sum_112.py](path_sum_112.py)**
 
@@ -256,6 +290,8 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[reverse_odd_levels_of_BT_2415.py](reverse_odd_levels_of_BT_2415.py)**
 
+**[reverse_string_344.py](reverse_string_344.py)**
+
 **[reverse_words_in_a_string_151.js](reverse_words_in_a_string_151.js)**
 
 **[root_equals_sum_of_children_2236.py](root_equals_sum_of_children_2236.py)**
@@ -282,7 +318,11 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[sliding_window_maximum_239.py](sliding_window_maximum_239.py)**
 
+**[smallest_even_multiple_2413.py](smallest_even_multiple_2413.py)**
+
 **[smallest_string_starting_from_leaf_988.py](smallest_string_starting_from_leaf_988.py)**
+
+**[smallest_subtree_with_all_the_deepest_nodes_865.py](smallest_subtree_with_all_the_deepest_nodes_865.py)**
 
 **[sort_colors_75.py](sort_colors_75.py)**
 
@@ -296,9 +336,13 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[sum_of_root_to_leaf_binary_numbers_1022.py](sum_of_root_to_leaf_binary_numbers_1022.py)**
 
+**[sum_of_two_integers_371.js](sum_of_two_integers_371.js)**
+
 **[sum_root_to_leaf_numbers_129.py](sum_root_to_leaf_numbers_129.py)**
 
 **[swap_nodes_in_pairs_24.py](swap_nodes_in_pairs_24.py)**
+
+**[symmetric_tree_101.py](symmetric_tree_101.py)**
 
 **[the_kth_factor_of_n_1492.js](the_kth_factor_of_n_1492.js)**
 
@@ -310,11 +354,19 @@ This repository contains JavaScript and python solutions for various algorithms 
 
 **[two_sum_IV_input_is_a_BST_653.py](two_sum_IV_input_is_a_BST_653.py)**
 
+**[two_sum-II-input_arr_is_sorted_167.js](two_sum-II-input_arr_is_sorted_167.js)**
+
+**[two_sum-II-input_arr_is_sorted_167.py](two_sum-II-input_arr_is_sorted_167.py)**
+
 **[univalued_BT_965.py](univalued_BT_965.py)**
 
 **[unq_num_of_occurrences_1207.js](unq_num_of_occurrences_1207.js)**
 
+**[valid_anagram_242.js](valid_anagram_242.js)**
+
 **[valid_anagram_242.py](valid_anagram_242.py)**
+
+**[valid_parentheses_20.js](valid_parentheses_20.js)**
 
 **[valid_parentheses_20.py](valid_parentheses_20.py)**
 

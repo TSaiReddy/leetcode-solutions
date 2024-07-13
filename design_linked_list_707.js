@@ -120,3 +120,110 @@ console.log(JSON.stringify(obj), "--------------");
 
 obj.get(0);
 console.log(obj, "get");
+
+// Proper Class Based
+class Node {
+  constructor(val) {
+    this.val = val;
+    this.next = null;
+  }
+}
+
+class LinkedList {
+  constructor() {
+    this.head = null;
+    this.tail = null;
+  }
+
+  get(index) {
+    if (!this.head) {
+      return -1;
+    }
+
+    let curIdx = 0;
+    let current = this.head;
+
+    while (current) {
+      if (curIdx === index) {
+        return current.val;
+      }
+      current = current.next;
+      curIdx += 1;
+    }
+    return -1;
+  }
+
+  addAtHead(val) {
+    const newNode = Node(val);
+
+    if (!this.head) {
+      this.head = newNode;
+      this.tail = newNode;
+    } else {
+      const current = this.head;
+      this.head = newNode;
+      this.head.next = current;
+    }
+  }
+
+  addAtTail(val) {
+    const newNode = Node(val);
+
+    if (!this.head) {
+      this.head = newNode;
+      this.tail = newNode;
+    } else {
+      this.tail.next = newNode;
+      this.tail = newNode;
+    }
+  }
+
+  addAtIndex(index, val) {
+    if (index == 0) {
+      this.addAtHead(val);
+      return;
+    }
+
+    const newNode = Node(val);
+    let current = this.head;
+    let curIdx = 0;
+    while (current) {
+      if (curIdx === index - 1) {
+        newNode.next = current.next;
+        current.next = newNode;
+        if (!newNode.next) {
+          this.tail = newNode;
+        }
+        return;
+      }
+      current = current.next;
+      curIdx++;
+    }
+  }
+
+  deleteAtIndex(index) {
+    if (index == 0) {
+      this.head = this.head.next;
+      if (!this.head) {
+        this.tail = null;
+      }
+    }
+
+    let curIdx = 0;
+    let current = this.head;
+
+    while (current) {
+      if (curIdx === index - 1) {
+        if (current.next) {
+          current.next = current.next.next;
+          if (!current.next) {
+            this.tail = current;
+          }
+        }
+        return;
+      }
+      current = current.next;
+      curIdx++;
+    }
+  }
+}
