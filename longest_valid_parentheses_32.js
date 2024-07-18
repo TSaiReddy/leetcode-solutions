@@ -1,3 +1,8 @@
+/**
+ * @param {string} s
+ * @return {number}
+ */
+
 function longestValidParentheses(s) {
   const stack = [-1];
   let maxLength = 0;

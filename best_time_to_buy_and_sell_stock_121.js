@@ -1,20 +1,24 @@
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+
 function maxProfit(prices) {
-  let buy_price = prices[0];
-  let max_profit = 0;
+  let buyPrice = prices[0];
+  let profit = 0;
 
-  for (const item of prices) {
-    const cur_profit = item - buy_price;
-    if (buy_price > item) {
-      buy_price = item;
-    }
+  for (const price of prices) {
+    const curProfit = price - buyPrice;
 
-    if (max_profit < cur_profit) {
-      max_profit = cur_profit;
+    if (buyPrice > price) {
+      buyPrice = price;
+    } else if (curProfit > profit) {
+      profit = curProfit;
     }
   }
-  return max_profit;
+  return profit;
 }
 
 console.log(maxProfit([2, 4, 1])); // 2 - 4 = 2
-// console.log(maxProfit([4, 7, 1, 2])); // 4 - 7 = 3
+console.log(maxProfit([4, 7, 1, 2])); // 4 - 7 = 3
 // console.log(maxProfit([7, 1, 5, 3, 6, 4])); // 1 - 6 = 5
