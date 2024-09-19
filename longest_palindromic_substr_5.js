@@ -12,9 +12,10 @@ function longestPalindrome(s) {
 
   function expandAroundCenter(left, right) {
     while (left >= 0 && right < strLen && s[left] === s[right]) {
-      if (right - left + 1 > resLen) {
+      const curLen = right - left + 1;
+      if (curLen > resLen) {
         res = s.substring(left, right + 1);
-        resLen = right - left + 1;
+        resLen = curLen;
       }
       left--;
       right++;

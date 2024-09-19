@@ -1,4 +1,8 @@
 function isAnagram(s, t) {
+  if (s.length !== t.length) {
+    return false;
+  }
+
   const counter1 = {};
   const counter2 = {};
 
@@ -8,10 +12,6 @@ function isAnagram(s, t) {
 
   for (const c2 of t) {
     counter2[c2] = (counter2[c2] || 0) + 1;
-  }
-
-  if (Object.keys(counter1).length !== Object.keys(counter2).length) {
-    return false;
   }
 
   for (const c3 in counter1) {

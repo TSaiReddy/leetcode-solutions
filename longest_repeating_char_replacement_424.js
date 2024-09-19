@@ -4,15 +4,15 @@
  * @return {number}
  */
 function characterReplacement(s, k) {
-  const count = {};
+  const hash = {};
   let result = 0;
   let left = 0;
 
   for (let right = 0; right < s.length; right++) {
-    count[s[right]] = count[s[right]] + 1 || 1;
+    hash[s[right]] = hash[s[right]] + 1 || 1;
 
-    while (right - left + 1 - Math.max(...Object.values(count)) > k) {
-      count[s[left]]--;
+    while (right - left + 1 - Math.max(...Object.values(hash)) > k) {
+      hash[s[left]]--;
       left++;
     }
     result = Math.max(result, right - left + 1);
@@ -23,18 +23,18 @@ function characterReplacement(s, k) {
 
 // Other Solution
 // function characterReplacement(s, k) {
-//   const count = {};
+//   const hash = {};
 //   let result = 0;
 //   let left = 0;
 //   let maxFreq = 0;
 
 //   for (let right = 0; right < s.length; right++) {
-//     count[s[right]] = count[s[right]] + 1 || 1;
+//     hash[s[right]] = hash[s[right]] + 1 || 1;
 
-//     maxFreq = Math.max(maxFreq, count[s[right]]);
+//     maxFreq = Math.max(maxFreq, hash[s[right]]);
 
 //     while (right - left + 1 - maxFreq > k) {
-//       count[s[left]]--;
+//       hash[s[left]]--;
 //       left++;
 //     }
 //     result = Math.max(result, right - left + 1);
