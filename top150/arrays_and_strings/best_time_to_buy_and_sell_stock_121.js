@@ -3,12 +3,8 @@ function maxProfit(prices) {
   let buyPrice = prices[0];
 
   for (const price of prices) {
-    if (price - buyPrice > profit) {
-      profit = price - buyPrice;
-    }
-    if (buyPrice > price) {
-      buyPrice = price;
-    }
+    if (price - buyPrice > profit) profit = price - buyPrice;
+    if (buyPrice > price) buyPrice = price;
   }
 
   return profit;

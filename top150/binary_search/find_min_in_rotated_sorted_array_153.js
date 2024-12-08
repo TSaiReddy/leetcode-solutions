@@ -1,14 +1,3 @@
-// function findMin(nums) {
-//   if (nums.length <= 1) {
-//     return nums[0];
-//   }
-//   const mid = Math.floor(nums.length / 2);
-
-//   const left = findMin(nums.slice(0, mid));
-//   const right = findMin(nums.slice(mid));
-//   return left > right ? right : left;
-// }
-
 function findMin(nums) {
   let left = 0;
   let right = nums.length - 1;
